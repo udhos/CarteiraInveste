@@ -1,0 +1,68 @@
+/** Add css rules here for your application. */
+
+/* table.getRowFormatter().addStyleName(0, "tableHeader"); */
+.tableHeader {
+  background-color: lightgreen;
+  color: darkblue;
+}
+
+/* taxGrid.addStyleName("boxedTable"); */
+.boxedTable {
+  border: 1px solid silver;
+  margin-bottom:6px;
+}
+
+.taxGridHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+}
+
+.taxGrid {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}
+
+.portfolioNumericColumn {
+  text-align: right;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+/** Most GWT widgets already have a style name defined */
+
+.gwt-TextBox {
+  width: 80px;
+}
+
+.gwt-DateBox {
+  width: 70px;
+}
+
+.gwt-ListBox {
+  width: 90px;
+}
+
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}

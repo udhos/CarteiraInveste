@@ -1,0 +1,23 @@
+NAVEGADORES SUPORTADOS
+- Firefox 16
+- Internet Explorer 8 (vide nota A abaixo)
+- Chrome 22 (vide nota B abaixo)
+
+Notas:
+(A) Em Maio de 2011 foi relatado que o CarteiraInveste *não* funciona com Internet Explorer 9.
+(B) Para funcionar com Chrome, deve-se executar o Chrome com a solução de contorno abaixo. 
+
+SOLUÇÃO DE CONTORNO PARA CHROME
+
+Formato:
+"C:\path\to\chrome.exe" --user-data-dir=C:\new\directory --allow-file-access-from-files
+
+Exemplo:
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir=C:\tmp\chrome --allow-file-access-from-files file:///C:/gwt-2.5.0/CarteiraInveste/war/CarteiraInveste.html
+
+Referências:
+http://code.google.com/p/chromium/issues/detail?id=70088 (indica solução de contorno acima)
+http://code.google.com/p/chromium/issues/detail?id=57653
+http://code.google.com/p/chromium/issues/detail?id=47416
+http://code.google.com/p/chromium/issues/detail?id=31068
+

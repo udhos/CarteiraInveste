@@ -1,0 +1,59 @@
+1. Instalar o Java JDK 7 (JDK 1.7.0)
+
+   Fonte:
+   http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+2. Instalar o Apache Ant 1.8.4
+
+   Fonte:
+   http://ant.apache.org/
+
+3. Instalar o GWT SDK 2.5.1
+
+   Fonte:
+   https://developers.google.com/web-toolkit/
+
+4. Criar uma aplicação GWT chamada "carteirainveste.CarteiraInveste"
+
+   Exemplo:
+
+   C:\gwt-2.5.1>webAppCreator -out CarteiraInveste carteirainveste.CarteiraInveste
+
+   O comando acima criará uma aplicação GWT sob a seguinte posição:
+
+   C:\gwt-2.5.1\CarteiraInveste
+
+   NOTA: O build.xml gerado procurará o GWT SDK sob C:\gwt-2.5.1
+
+5. Substituir os seguintes arquivos:
+
+   C:\gwt-2.5.1\CarteiraInveste\build.xml
+   C:\gwt-2.5.1\CarteiraInveste\war\CarteiraInveste.css
+   C:\gwt-2.5.1\CarteiraInveste\war\CarteiraInveste.html
+   C:\gwt-2.5.1\CarteiraInveste\war\WEB-INF\web.xml
+   C:\gwt-2.5.1\CarteiraInveste\src\carteirainveste\CarteiraInveste.gwt.xml
+   C:\gwt-2.5.1\CarteiraInveste\src\carteirainveste\client\CarteiraInveste.java
+   C:\gwt-2.5.1\CarteiraInveste\src\carteirainveste\client\QuoteService.java
+   C:\gwt-2.5.1\CarteiraInveste\src\carteirainveste\client\QuoteServiceAsync.java
+   C:\gwt-2.5.1\CarteiraInveste\src\carteirainveste\server\QuoteServiceImpl.java
+
+   NOTA: O build.xml procurará o GWT SDK sob C:\gwt-2.5.1
+
+6. Compilar
+
+   @rem Se a variavél PATH não estiver definida:
+   @rem
+   set ANT_HOME=c:\apache-ant-1.8.4
+   set JAVA_HOME=C:\Program Files\Java\jdk1.7.0_04
+   set PATH=%ANT_HOME%\bin;%JAVA_HOME%\bin;%PATH%
+
+   C:\gwt-2.5.1\CarteiraInveste>ant build
+
+7. Testar
+
+   Abrir o seguinte arquivo com o navegador:
+
+   C:\gwt-2.5.1\CarteiraInveste\war\CarteiraInveste.html
+
+
+-- FIM --

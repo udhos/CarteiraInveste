@@ -1,0 +1,35 @@
+0.15
+----
+Novidades:
+- Compilação: atualização para compilar com GWT 2.5.0.
+
+0.14
+----
+Novidades:
+- Proventos: melhor tratamento do aluguel de ações.
+
+0.13
+----
+Novidades:
+- IR: Botão para restaurar opções recomendadas para apuração de imposto de renda.
+- Evolução: nova aba para totalizar a evolução mensal dos aportes.
+
+0.12
+----
+Novidades:
+- Contas: possibilidade de cadastro explícito da despesa com Remessa de recursos para depósitos (DOC/TEC).
+- Resultado: exibição do fluxo de caixa em formato compatível com a função XTIR/XIRR do MS Excel.
+
+0.11
+----
+Novidades:
+- IR/Proventos: tratamento tributário de bonificações com custo.
+- Desdobramentos: na nova aba "Desdobramentos" é possível cadastrar
+  desdobramentos e grupamentos, atualizando automaticamente a
+  quantidade de ativos.
+
+0.10
+----
+Atualizações:
+- IR: possibilidade de inclusão de saldo inicial para prejuízo acumulado.
+- Rentabilidade: cálculo da rentabilidade geral da carteira, em taxa composta.
