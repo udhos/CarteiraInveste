@@ -1,35 +1,41 @@
+0.16
+----
+Java 8 (openjdk version "1.8.0_442") - https://adoptium.net/temurin/releases/?version=8
+ant 1.10.15 - https://dlcdn.apache.org//ant/binaries/apache-ant-1.10.15-bin.zip
+GWT 2.7.0 - https://storage.googleapis.com/gwt-releases/gwt-2.7.0.zip
+
 0.15
 ----
 Novidades:
-- Compilação: atualização para compilar com GWT 2.5.0.
+- Compilaï¿½ï¿½o: atualizaï¿½ï¿½o para compilar com GWT 2.5.0.
 
 0.14
 ----
 Novidades:
-- Proventos: melhor tratamento do aluguel de ações.
+- Proventos: melhor tratamento do aluguel de aï¿½ï¿½es.
 
 0.13
 ----
 Novidades:
-- IR: Botão para restaurar opções recomendadas para apuração de imposto de renda.
-- Evolução: nova aba para totalizar a evolução mensal dos aportes.
+- IR: Botï¿½o para restaurar opï¿½ï¿½es recomendadas para apuraï¿½ï¿½o de imposto de renda.
+- Evoluï¿½ï¿½o: nova aba para totalizar a evoluï¿½ï¿½o mensal dos aportes.
 
 0.12
 ----
 Novidades:
-- Contas: possibilidade de cadastro explícito da despesa com Remessa de recursos para depósitos (DOC/TEC).
-- Resultado: exibição do fluxo de caixa em formato compatível com a função XTIR/XIRR do MS Excel.
+- Contas: possibilidade de cadastro explï¿½cito da despesa com Remessa de recursos para depï¿½sitos (DOC/TEC).
+- Resultado: exibiï¿½ï¿½o do fluxo de caixa em formato compatï¿½vel com a funï¿½ï¿½o XTIR/XIRR do MS Excel.
 
 0.11
 ----
 Novidades:
-- IR/Proventos: tratamento tributário de bonificações com custo.
-- Desdobramentos: na nova aba "Desdobramentos" é possível cadastrar
+- IR/Proventos: tratamento tributï¿½rio de bonificaï¿½ï¿½es com custo.
+- Desdobramentos: na nova aba "Desdobramentos" ï¿½ possï¿½vel cadastrar
   desdobramentos e grupamentos, atualizando automaticamente a
   quantidade de ativos.
 
 0.10
 ----
-Atualizações:
-- IR: possibilidade de inclusão de saldo inicial para prejuízo acumulado.
-- Rentabilidade: cálculo da rentabilidade geral da carteira, em taxa composta.
+Atualizaï¿½ï¿½es:
+- IR: possibilidade de inclusï¿½o de saldo inicial para prejuï¿½zo acumulado.
+- Rentabilidade: cï¿½lculo da rentabilidade geral da carteira, em taxa composta.
